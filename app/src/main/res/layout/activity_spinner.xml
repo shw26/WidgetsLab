@@ -8,7 +8,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:gravity="center_horizontal"
     tools:context="group1.tcss450.uw.edu.widgetslab.SpinnerActivity">
     <Spinner
         android:id="@+id/spinner"
@@ -24,6 +23,7 @@
         android:layout_below="@+id/spinner"
         android:drawable="@drawable/challenge"
         android:id="@+id/imageview"
+        android:layout_centerInParent="true"
         />
 
 </RelativeLayout>

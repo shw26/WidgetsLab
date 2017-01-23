@@ -35,4 +35,7 @@ public class CheckBoxRadioButtonActivity extends AppCompatActivity {
                 break;
         }
     }
+    public void submitButtonOnClick(View view){
+
+    }
 }
